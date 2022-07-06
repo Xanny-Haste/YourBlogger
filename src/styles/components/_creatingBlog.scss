@@ -1,0 +1,52 @@
+.Title {
+  padding-top: 2rem;
+  font-size: $m-size;
+  text-align: center;
+  color: $off-white;
+  padding-bottom: 3.5rem;
+  border-bottom: 0.2rem solid $off-white;
+}
+
+.formSub {
+  display: flex;
+  justify-content: center;
+}
+
+.blockDis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.submission {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+.postTitle {
+  margin-bottom: 2rem;
+}
+.error-message {
+  color: $off-white;
+  font-size: $s-size;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2.8rem;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.Button1 {
+  margin-top: 2rem;
+  padding: $s-size $l-size $s-size $l-size;
+  background-color: $off-white;
+  border-radius: 99cm;
+  text-decoration: none;
+}
+
+.Button1:hover {
+  transition: 0.8s;
+  background-color: $blue-sky;
+}

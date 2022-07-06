@@ -1,0 +1,43 @@
+.root {
+  display: flexbox;
+  width: 60%;
+
+  padding-left: 14%;
+  font-size: $s-size;
+}
+.Creating {
+  display: block;
+  padding-bottom: 4rem;
+}
+
+.displayend {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.Button {
+  margin-top: 2rem;
+  padding: $s-size $l-size $s-size $l-size;
+  background-color: $off-white;
+  border-radius: 99cm;
+  text-decoration: none;
+  position: relative;
+  left: 45%;
+}
+
+.blogs {
+  padding-top: 4rem;
+}
+
+.LinksToTitles {
+  text-decoration: none;
+  color: $off-white;
+  font-size: 2rem;
+}
+
+.Button:hover {
+  transition: 0.8s;
+  background-color: $blue-sky;
+}
